@@ -22,3 +22,7 @@ instance/volumes/
 instance/data.json
 instance/data.json.*.bak
 
+chatroom
+
+package-lock.json
+
