@@ -192,12 +192,13 @@ def initChannels():
         dnero_store = Group.query.filter_by(_name='Dnero Store').first()
         devrage_debates = Group.query.filter_by(_name='Beverage Debates').first()
         nfl_goats = Group.query.filter_by(_name='NFL GOATs').first()
+        genres = Group.query.filter_by(_name='Genres').first()
         vote_for_the_goat_channels = [
-            Channel(name='Milk vs Cereal', group_id=internet_debates.id),
-            Channel(name='Hot Dog Sandwich', group_id=internet_debates.id),
-            Channel(name='Pineapple on Pizza', group_id=internet_debates.id),
-            Channel(name='Cats vs Dogs', group_id=internet_debates.id),
-            Channel(name='Coffee or Tea', group_id=internet_debates.id),
+            Channel(name='The Weeknd OR Lana Del Rey', group_id=genres.id),
+            Channel(name='RHCP OR Guns N Roses', group_id=genres.id),
+            Channel(name='Ella Fitzgerald OR Billie Holiday', group_id=genres.id),
+            Channel(name='Drake OR Kanye West', group_id=genres.id),
+            Channel(name='Mozart OR Bethoven', group_id=genres.id),
         ]
         
         channels = home_page_channels + shared_interest_channels + vote_for_the_goat_channels
