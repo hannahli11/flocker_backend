@@ -198,6 +198,7 @@ def initChannels():
             Channel(name='RHCP OR Guns N Roses', group_id=genres.id),
             Channel(name='Ella Fitzgerald OR Billie Holiday', group_id=genres.id),
             Channel(name='Drake OR Kanye West', group_id=genres.id),
+            Channel(name='Calvin Harris OR Alan Walker', group_id=genres.id),
             Channel(name='Mozart OR Bethoven', group_id=genres.id),
         ]
         
